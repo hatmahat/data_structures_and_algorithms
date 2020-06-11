@@ -10,3 +10,6 @@ def disk_usage(path):
 
     print('{0:<7}'.format(total, path))                 # descriptive output (optinal)
     return total                                        # return the grand total
+
+# TESTING
+print(disk_usage('C:\\Users\\ASUS\\Desktop'))
